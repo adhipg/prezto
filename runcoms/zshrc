@@ -11,3 +11,15 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+alias ww=/Users/adhip/Projects/sources/www
+alias s=/Users/adhip/Projects/sources
+alias bower='noglob bower'
+
+# VirtualenvWrapper
+export PROJECT_HOME="$HOME/Projects/sources/python"
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
+
+# Postgres
+PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
+
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
